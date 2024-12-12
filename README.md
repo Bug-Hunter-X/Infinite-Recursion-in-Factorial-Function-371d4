@@ -1,0 +1,1 @@
+This repository demonstrates a common error in recursive functions in R: infinite recursion due to improper handling of base cases. The `bug.R` file contains a factorial function that will enter an infinite recursion if a negative number is provided as input. The `bugSolution.R` file provides a corrected version of the function that handles this case gracefully.
